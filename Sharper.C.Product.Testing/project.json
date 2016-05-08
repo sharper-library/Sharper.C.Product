@@ -1,0 +1,17 @@
+﻿{ "version": "0.1.0-*"
+, "description": "Properties and Arbitrary instances for Sharper.C.Product"
+, "authors": ["Jeremy Hughes <jeremy@tflite.com>"]
+, "projectUrl": "https://github.com/sharper-library/Sharper.C.Product"
+, "licenseUrl": "https://raw.githubusercontent.com/sharper-library/Sharper.C.Product/master/LICENSE.txt"
+
+, "dependencies":
+  { "Sharper.C.Product": ""
+  , "Sharper.C.Testing": "0.1.0-*"
+  }
+
+, "frameworks":
+  { "dnx451":
+    {
+    }
+  }
+}

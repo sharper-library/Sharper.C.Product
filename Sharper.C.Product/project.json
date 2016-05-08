@@ -1,0 +1,20 @@
+﻿{ "version": "0.1.0-*"
+, "description": "Product type"
+, "authors": ["Jeremy Hughes <jeremy@tflite.com>"]
+, "projectUrl": "https://github.com/sharper-library/Sharper.C.Product"
+, "licenseUrl": "https://raw.githubusercontent.com/sharper-library/Sharper.C.Product/master/LICENSE.txt"
+
+, "frameworks":
+  { "dotnet":
+    { "dependencies":
+      { "System.Runtime": "4.0.20"
+      }
+    }
+  , "dnx451":
+    {
+    }
+  , "net451":
+    {
+    }
+  }
+}
