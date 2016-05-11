@@ -5,11 +5,15 @@
 , "licenseUrl": "https://raw.githubusercontent.com/sharper-library/Sharper.C.Product/master/LICENSE.txt"
 
 , "commands":
-  { "test": "run"
+  { "test": "xunit.runner.dnx"
   }
 
 , "dependencies":
   { "Sharper.C.Product.Testing": ""
+  , "Sharper.C.Testing": "0.1.0-*"
+  , "Sharper.C.Testing.Xunit": "0.1.0-*"
+  , "xunit": "2.1.0"
+  , "xunit.runner.dnx": "2.1.0-rc1-build204"
   }
 
 , "frameworks":

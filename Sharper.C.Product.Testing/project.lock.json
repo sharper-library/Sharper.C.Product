@@ -3,7 +3,7 @@
   "version": 2,
   "targets": {
     "DNX,Version=v4.5.1": {
-      "FsCheck/2.2.4": {
+      "FsCheck/2.4.0": {
         "type": "package",
         "dependencies": {
           "FSharp.Core": "3.1.2.5"
@@ -15,7 +15,7 @@
           "lib/net45/FsCheck.dll": {}
         }
       },
-      "FSharp.Core/3.1.2.5": {
+      "FSharp.Core/4.0.0.1": {
         "type": "package",
         "compile": {
           "lib/net40/FSharp.Core.dll": {}
@@ -24,40 +24,15 @@
           "lib/net40/FSharp.Core.dll": {}
         }
       },
-      "Fuchu/1.0.3": {
-        "type": "package",
-        "dependencies": {
-          "FSharp.Core": "3.1.2.1"
-        },
-        "compile": {
-          "lib/Fuchu.dll": {}
-        },
-        "runtime": {
-          "lib/Fuchu.dll": {}
-        }
-      },
-      "Fuchu.FsCheck/1.0.3": {
-        "type": "package",
-        "dependencies": {
-          "FsCheck": "2.2.4",
-          "FSharp.Core": "3.1.2.5",
-          "Fuchu": "1.0.3"
-        },
-        "compile": {
-          "lib/Fuchu.FsCheck.dll": {}
-        },
-        "runtime": {
-          "lib/Fuchu.FsCheck.dll": {}
-        }
-      },
-      "Sharper.C.Product/0.1.0-z": {
+      "Sharper.C.Product/0.1.0": {
         "type": "project",
         "framework": "DNX,Version=v4.5.1"
       },
-      "Sharper.C.Testing/0.1.0-dev": {
+      "Sharper.C.Testing/0.1.0-build-00012": {
         "type": "package",
         "dependencies": {
-          "Fuchu.FsCheck": "1.0.3",
+          "FsCheck": "2.4.0",
+          "FSharp.Core": "4.0.0.1",
           "System.Collections.Immutable": "1.1.38-beta-23516"
         },
         "frameworkAssemblies": [
@@ -168,7 +143,7 @@
       }
     },
     "DNX,Version=v4.5.1/win7-x86": {
-      "FsCheck/2.2.4": {
+      "FsCheck/2.4.0": {
         "type": "package",
         "dependencies": {
           "FSharp.Core": "3.1.2.5"
@@ -180,7 +155,7 @@
           "lib/net45/FsCheck.dll": {}
         }
       },
-      "FSharp.Core/3.1.2.5": {
+      "FSharp.Core/4.0.0.1": {
         "type": "package",
         "compile": {
           "lib/net40/FSharp.Core.dll": {}
@@ -189,40 +164,15 @@
           "lib/net40/FSharp.Core.dll": {}
         }
       },
-      "Fuchu/1.0.3": {
-        "type": "package",
-        "dependencies": {
-          "FSharp.Core": "3.1.2.1"
-        },
-        "compile": {
-          "lib/Fuchu.dll": {}
-        },
-        "runtime": {
-          "lib/Fuchu.dll": {}
-        }
-      },
-      "Fuchu.FsCheck/1.0.3": {
-        "type": "package",
-        "dependencies": {
-          "FsCheck": "2.2.4",
-          "FSharp.Core": "3.1.2.5",
-          "Fuchu": "1.0.3"
-        },
-        "compile": {
-          "lib/Fuchu.FsCheck.dll": {}
-        },
-        "runtime": {
-          "lib/Fuchu.FsCheck.dll": {}
-        }
-      },
-      "Sharper.C.Product/0.1.0-z": {
+      "Sharper.C.Product/0.1.0": {
         "type": "project",
         "framework": "DNX,Version=v4.5.1"
       },
-      "Sharper.C.Testing/0.1.0-dev": {
+      "Sharper.C.Testing/0.1.0-build-00012": {
         "type": "package",
         "dependencies": {
-          "Fuchu.FsCheck": "1.0.3",
+          "FsCheck": "2.4.0",
+          "FSharp.Core": "4.0.0.1",
           "System.Collections.Immutable": "1.1.38-beta-23516"
         },
         "frameworkAssemblies": [
@@ -333,7 +283,7 @@
       }
     },
     "DNX,Version=v4.5.1/win7-x64": {
-      "FsCheck/2.2.4": {
+      "FsCheck/2.4.0": {
         "type": "package",
         "dependencies": {
           "FSharp.Core": "3.1.2.5"
@@ -345,7 +295,7 @@
           "lib/net45/FsCheck.dll": {}
         }
       },
-      "FSharp.Core/3.1.2.5": {
+      "FSharp.Core/4.0.0.1": {
         "type": "package",
         "compile": {
           "lib/net40/FSharp.Core.dll": {}
@@ -354,40 +304,15 @@
           "lib/net40/FSharp.Core.dll": {}
         }
       },
-      "Fuchu/1.0.3": {
-        "type": "package",
-        "dependencies": {
-          "FSharp.Core": "3.1.2.1"
-        },
-        "compile": {
-          "lib/Fuchu.dll": {}
-        },
-        "runtime": {
-          "lib/Fuchu.dll": {}
-        }
-      },
-      "Fuchu.FsCheck/1.0.3": {
-        "type": "package",
-        "dependencies": {
-          "FsCheck": "2.2.4",
-          "FSharp.Core": "3.1.2.5",
-          "Fuchu": "1.0.3"
-        },
-        "compile": {
-          "lib/Fuchu.FsCheck.dll": {}
-        },
-        "runtime": {
-          "lib/Fuchu.FsCheck.dll": {}
-        }
-      },
-      "Sharper.C.Product/0.1.0-z": {
+      "Sharper.C.Product/0.1.0": {
         "type": "project",
         "framework": "DNX,Version=v4.5.1"
       },
-      "Sharper.C.Testing/0.1.0-dev": {
+      "Sharper.C.Testing/0.1.0-build-00012": {
         "type": "package",
         "dependencies": {
-          "Fuchu.FsCheck": "1.0.3",
+          "FsCheck": "2.4.0",
+          "FSharp.Core": "4.0.0.1",
           "System.Collections.Immutable": "1.1.38-beta-23516"
         },
         "frameworkAssemblies": [
@@ -499,16 +424,16 @@
     }
   },
   "libraries": {
-    "Sharper.C.Product/0.1.0-z": {
+    "Sharper.C.Product/0.1.0": {
       "type": "project",
       "path": "../Sharper.C.Product/project.json"
     },
-    "FsCheck/2.2.4": {
+    "FsCheck/2.4.0": {
       "type": "package",
-      "sha512": "FF+XVwzwn0xKPXG4zXkxks/3ZNBSQ6eenyo9jPwaSj84Qr7flKXLGd1SpDTALay7FzmovuqQxbrCGs+HD0sGwg==",
+      "sha512": "iNljIeubjyG0ZsUm2++RJkOSm/6Be8zr4lk7ZvAMsoS31I6wphN2WTtolY8754ktwjhX1g9qMAvc7GQmyw0HFQ==",
       "files": [
-        "FsCheck.2.2.4.nupkg",
-        "FsCheck.2.2.4.nupkg.sha512",
+        "FsCheck.2.4.0.nupkg",
+        "FsCheck.2.4.0.nupkg.sha512",
         "FsCheck.nuspec",
         "lib/net45/FsCheck.dll",
         "lib/net45/FsCheck.pdb",
@@ -524,12 +449,12 @@
         "lib/portable-net45+netcore45+wpa81+wp8/FsCheck.XML"
       ]
     },
-    "FSharp.Core/3.1.2.5": {
+    "FSharp.Core/4.0.0.1": {
       "type": "package",
-      "sha512": "1V9wPWZuLgewzk01tc5wRyGrmdOI+Lc9/MsAeMXFffjjGA1Ydv5KU2mnWLz+O6TcHeACwK0M3yHbb/we233vvg==",
+      "sha512": "lNtlbbJ5hP8LEd7nKtTUiGEpLmHLWiU39x+0jq4rmRWG7Mgj6vYm+gmTOhtwpiPFX8j8zUsfLyA8AC7dZY75LQ==",
       "files": [
-        "FSharp.Core.3.1.2.5.nupkg",
-        "FSharp.Core.3.1.2.5.nupkg.sha512",
+        "FSharp.Core.4.0.0.1.nupkg",
+        "FSharp.Core.4.0.0.1.nupkg.sha512",
         "FSharp.Core.nuspec",
         "lib/net20/FSharp.Core.dll",
         "lib/net20/FSharp.Core.optdata",
@@ -561,38 +486,14 @@
         "lib/portable-net45+sl5+netcore45/FSharp.Core.xml"
       ]
     },
-    "Fuchu/1.0.3": {
+    "Sharper.C.Testing/0.1.0-build-00012": {
       "type": "package",
-      "sha512": "Ux3gNTOFyJloKwe7jfgq3H2+nbryBJmgWI5E6JrFThVzh3mnrPhoNo56qTCeoyzIcSqKCx3zvChMs8YK2JgKYA==",
-      "files": [
-        "Fuchu.1.0.3.nupkg",
-        "Fuchu.1.0.3.nupkg.sha512",
-        "Fuchu.nuspec",
-        "lib/Fuchu.dll",
-        "lib/Fuchu.pdb",
-        "lib/Fuchu.XML"
-      ]
-    },
-    "Fuchu.FsCheck/1.0.3": {
-      "type": "package",
-      "sha512": "4GY/cNwNyMeuvzGqEBeIHXBHsCZ0h1BcQgh6qpvamnjfDTJjoqL/7wPPWjbRPnIfVtgQ7acPnVHGcQjMQ5kFZw==",
-      "files": [
-        "Fuchu.FsCheck.1.0.3.nupkg",
-        "Fuchu.FsCheck.1.0.3.nupkg.sha512",
-        "Fuchu.FsCheck.nuspec",
-        "lib/Fuchu.FsCheck.dll",
-        "lib/Fuchu.FsCheck.pdb",
-        "lib/Fuchu.FsCheck.XML"
-      ]
-    },
-    "Sharper.C.Testing/0.1.0-dev": {
-      "type": "package",
-      "sha512": "aqM6VhFuYfYGMoUwAlyNkZ67jB1QETXMmc+7lKUQUkAFutUX2oagLhkOkpz9wrwlViRziahBOUzTlPbDCxgN1A==",
+      "sha512": "mpegIxsIHJJDMiPpSePrqWz+KkTESigw09fNy5Sw3XEi0bs6J4OFYTOaQo4Q4AKxbHxhHykK5YzvIHI5dw4hlg==",
       "files": [
         "lib/dnx451/Sharper.C.Testing.dll",
         "lib/dnx451/Sharper.C.Testing.xml",
-        "Sharper.C.Testing.0.1.0-dev.nupkg",
-        "Sharper.C.Testing.0.1.0-dev.nupkg.sha512",
+        "Sharper.C.Testing.0.1.0-build-00012.nupkg",
+        "Sharper.C.Testing.0.1.0-build-00012.nupkg.sha512",
         "Sharper.C.Testing.nuspec"
       ]
     },
