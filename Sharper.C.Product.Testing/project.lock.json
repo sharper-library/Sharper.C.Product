@@ -43,7 +43,7 @@
                 "type": "project",
                 "framework": "DNX,Version=v4.5.1"
             },
-            "Sharper.C.Testing/0.1.0-build-00018": {
+            "Sharper.C.Testing/0.1.0-build-00019": {
                 "type": "package",
                 "dependencies": {
                     "FsCheck": "2.4.0",
@@ -199,7 +199,7 @@
                 "type": "project",
                 "framework": "DNX,Version=v4.5.1"
             },
-            "Sharper.C.Testing/0.1.0-build-00018": {
+            "Sharper.C.Testing/0.1.0-build-00019": {
                 "type": "package",
                 "dependencies": {
                     "FsCheck": "2.4.0",
@@ -355,7 +355,7 @@
                 "type": "project",
                 "framework": "DNX,Version=v4.5.1"
             },
-            "Sharper.C.Testing/0.1.0-build-00018": {
+            "Sharper.C.Testing/0.1.0-build-00019": {
                 "type": "package",
                 "dependencies": {
                     "FsCheck": "2.4.0",
@@ -549,14 +549,14 @@
                 "Sharper.C.Eq.nuspec"
             ]
         },
-        "Sharper.C.Testing/0.1.0-build-00018": {
+        "Sharper.C.Testing/0.1.0-build-00019": {
             "type": "package",
-            "sha512": "5W3vkRGv/ArkpDySlFjmxWJR0kP1zVNuEJtpFBDrl+H98shPBKIDU0aXK2x6P9+p1gbjQrXQlKpm0aIcJqId3w==",
+            "sha512": "xADRbW3JzlN4acPjPww88iQaem2/eEVJKVwh0TdNBPs3n3H7s4gTfoe9tNLznoQwE8GKRxXcdCpi9ujw8PbNng==",
             "files": [
                 "lib/dnx451/Sharper.C.Testing.dll",
                 "lib/dnx451/Sharper.C.Testing.xml",
-                "Sharper.C.Testing.0.1.0-build-00018.nupkg",
-                "Sharper.C.Testing.0.1.0-build-00018.nupkg.sha512",
+                "Sharper.C.Testing.0.1.0-build-00019.nupkg",
+                "Sharper.C.Testing.0.1.0-build-00019.nupkg.sha512",
                 "Sharper.C.Testing.nuspec"
             ]
         },
