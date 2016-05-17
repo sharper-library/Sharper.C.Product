@@ -5,8 +5,8 @@ using Sharper.C.Testing;
 using Sharper.C.Testing.Xunit;
 using Sharper.C.Testing.Laws;
 
-using static Sharper.C.Testing.SystemArbitraryModule;
-using static Sharper.C.Testing.ProductArbitraryModule;
+using static Sharper.C.Testing.Arbitraries.SystemArbitrariesModule;
+using static Sharper.C.Testing.Arbitraries.ProductArbitrariesModule;
 
 namespace Sharper.C.Product.Tests.Data
 {

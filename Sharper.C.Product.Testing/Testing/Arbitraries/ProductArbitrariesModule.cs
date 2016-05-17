@@ -2,9 +2,9 @@ using System.Linq;
 using FsCheck;
 using Sharper.C.Data;
 
-namespace Sharper.C.Testing
+namespace Sharper.C.Testing.Arbitraries
 {
-    public static class ProductArbitraryModule
+    public static class ProductArbitrariesModule
     {
         public static Arbitrary<And<A, B>> AnyAnd<A, B>
           ( Arbitrary<A> arbA
