@@ -39,11 +39,11 @@
                     "lib/dnx451/Sharper.C.Eq.dll": {}
                 }
             },
-            "Sharper.C.Product/0.1.0-z": {
+            "Sharper.C.Product/0.1.0": {
                 "type": "project",
                 "framework": "DNX,Version=v4.5.1"
             },
-            "Sharper.C.Testing/0.1.0-build-00016": {
+            "Sharper.C.Testing/0.1.0-build-00017": {
                 "type": "package",
                 "dependencies": {
                     "FsCheck": "2.4.0",
@@ -195,11 +195,11 @@
                     "lib/dnx451/Sharper.C.Eq.dll": {}
                 }
             },
-            "Sharper.C.Product/0.1.0-z": {
+            "Sharper.C.Product/0.1.0": {
                 "type": "project",
                 "framework": "DNX,Version=v4.5.1"
             },
-            "Sharper.C.Testing/0.1.0-build-00016": {
+            "Sharper.C.Testing/0.1.0-build-00017": {
                 "type": "package",
                 "dependencies": {
                     "FsCheck": "2.4.0",
@@ -351,11 +351,11 @@
                     "lib/dnx451/Sharper.C.Eq.dll": {}
                 }
             },
-            "Sharper.C.Product/0.1.0-z": {
+            "Sharper.C.Product/0.1.0": {
                 "type": "project",
                 "framework": "DNX,Version=v4.5.1"
             },
-            "Sharper.C.Testing/0.1.0-build-00016": {
+            "Sharper.C.Testing/0.1.0-build-00017": {
                 "type": "package",
                 "dependencies": {
                     "FsCheck": "2.4.0",
@@ -472,7 +472,7 @@
         }
     },
     "libraries": {
-        "Sharper.C.Product/0.1.0-z": {
+        "Sharper.C.Product/0.1.0": {
             "type": "project",
             "path": "../Sharper.C.Product/project.json"
         },
@@ -549,14 +549,14 @@
                 "Sharper.C.Eq.nuspec"
             ]
         },
-        "Sharper.C.Testing/0.1.0-build-00016": {
+        "Sharper.C.Testing/0.1.0-build-00017": {
             "type": "package",
-            "sha512": "cY3sirTDSQBaoNlWlNgN/V+9Zn49aKA/Yp+ZLiIOuCM0BbzTP4f7xBFeIo7tqn8KNbfXL4CT9UvK/7YhUWeLRw==",
+            "sha512": "wiCIP5c4QXZ+50/GA1PCB11oeZhWj/ILuZk8e/FUAGwvMlO5S6HIbciRMO/zVNWPlux5VWRui0kLVhjFI/62/g==",
             "files": [
                 "lib/dnx451/Sharper.C.Testing.dll",
                 "lib/dnx451/Sharper.C.Testing.xml",
-                "Sharper.C.Testing.0.1.0-build-00016.nupkg",
-                "Sharper.C.Testing.0.1.0-build-00016.nupkg.sha512",
+                "Sharper.C.Testing.0.1.0-build-00017.nupkg",
+                "Sharper.C.Testing.0.1.0-build-00017.nupkg.sha512",
                 "Sharper.C.Testing.nuspec"
             ]
         },
