@@ -44,6 +44,9 @@ namespace Sharper.C.Data
         public C Cata<C>(Func<A, B, C> f)
         =>  f(Fst, Snd);
 
+        public And<B, A> Swap
+        =>  And.Mk(Snd, Fst);
+
         public And<C, B> Select<C>(Func<A, C> f)
         =>  MapFst(f);
 
