@@ -154,7 +154,7 @@
                     "lib/net45/Newtonsoft.Json.dll": {}
                 }
             },
-            "Sharper.C.Eq/0.1.0-build-00008": {
+            "Sharper.C.Eq/0.1.0-master-00003": {
                 "type": "package",
                 "frameworkAssemblies": [
                     "Microsoft.CSharp",
@@ -169,11 +169,11 @@
                     "lib/dnx451/Sharper.C.Eq.dll": {}
                 }
             },
-            "Sharper.C.Product/0.1.0-z": {
+            "Sharper.C.Product/0.1.0": {
                 "type": "project",
                 "framework": "DNX,Version=v4.5.1"
             },
-            "Sharper.C.Product.Testing/0.1.0-z": {
+            "Sharper.C.Product.Testing/0.1.0": {
                 "type": "project",
                 "framework": "DNX,Version=v4.5.1",
                 "dependencies": {
@@ -181,12 +181,12 @@
                     "Sharper.C.Testing": "0.1.0"
                 }
             },
-            "Sharper.C.Testing/0.1.0-build-00019": {
+            "Sharper.C.Testing/0.1.0-master-00007": {
                 "type": "package",
                 "dependencies": {
                     "FsCheck": "2.4.0",
                     "FSharp.Core": "4.0.0.1",
-                    "Sharper.C.Eq": "0.1.0-build-00008",
+                    "Sharper.C.Eq": "0.1.0-master-00003",
                     "System.Collections.Immutable": "1.1.38-beta-23516"
                 },
                 "frameworkAssemblies": [
@@ -204,11 +204,10 @@
                     "lib/dnx451/Sharper.C.Testing.dll": {}
                 }
             },
-            "Sharper.C.Testing.Xunit/0.1.0-build-00019": {
+            "Sharper.C.Testing.Xunit/0.1.0-master-00007": {
                 "type": "package",
                 "dependencies": {
-                    "Sharper.C.Product": "0.1.0-build-00002",
-                    "Sharper.C.Testing": "0.1.0-build-00019",
+                    "Sharper.C.Testing": "0.1.0-master-00007",
                     "xunit": "2.1.0"
                 },
                 "frameworkAssemblies": [
@@ -581,7 +580,7 @@
                     "lib/net45/Newtonsoft.Json.dll": {}
                 }
             },
-            "Sharper.C.Eq/0.1.0-build-00008": {
+            "Sharper.C.Eq/0.1.0-master-00003": {
                 "type": "package",
                 "frameworkAssemblies": [
                     "Microsoft.CSharp",
@@ -596,11 +595,11 @@
                     "lib/dnx451/Sharper.C.Eq.dll": {}
                 }
             },
-            "Sharper.C.Product/0.1.0-z": {
+            "Sharper.C.Product/0.1.0": {
                 "type": "project",
                 "framework": "DNX,Version=v4.5.1"
             },
-            "Sharper.C.Product.Testing/0.1.0-z": {
+            "Sharper.C.Product.Testing/0.1.0": {
                 "type": "project",
                 "framework": "DNX,Version=v4.5.1",
                 "dependencies": {
@@ -608,12 +607,12 @@
                     "Sharper.C.Testing": "0.1.0"
                 }
             },
-            "Sharper.C.Testing/0.1.0-build-00019": {
+            "Sharper.C.Testing/0.1.0-master-00007": {
                 "type": "package",
                 "dependencies": {
                     "FsCheck": "2.4.0",
                     "FSharp.Core": "4.0.0.1",
-                    "Sharper.C.Eq": "0.1.0-build-00008",
+                    "Sharper.C.Eq": "0.1.0-master-00003",
                     "System.Collections.Immutable": "1.1.38-beta-23516"
                 },
                 "frameworkAssemblies": [
@@ -631,11 +630,10 @@
                     "lib/dnx451/Sharper.C.Testing.dll": {}
                 }
             },
-            "Sharper.C.Testing.Xunit/0.1.0-build-00019": {
+            "Sharper.C.Testing.Xunit/0.1.0-master-00007": {
                 "type": "package",
                 "dependencies": {
-                    "Sharper.C.Product": "0.1.0-build-00002",
-                    "Sharper.C.Testing": "0.1.0-build-00019",
+                    "Sharper.C.Testing": "0.1.0-master-00007",
                     "xunit": "2.1.0"
                 },
                 "frameworkAssemblies": [
@@ -1008,7 +1006,7 @@
                     "lib/net45/Newtonsoft.Json.dll": {}
                 }
             },
-            "Sharper.C.Eq/0.1.0-build-00008": {
+            "Sharper.C.Eq/0.1.0-master-00003": {
                 "type": "package",
                 "frameworkAssemblies": [
                     "Microsoft.CSharp",
@@ -1023,11 +1021,11 @@
                     "lib/dnx451/Sharper.C.Eq.dll": {}
                 }
             },
-            "Sharper.C.Product/0.1.0-z": {
+            "Sharper.C.Product/0.1.0": {
                 "type": "project",
                 "framework": "DNX,Version=v4.5.1"
             },
-            "Sharper.C.Product.Testing/0.1.0-z": {
+            "Sharper.C.Product.Testing/0.1.0": {
                 "type": "project",
                 "framework": "DNX,Version=v4.5.1",
                 "dependencies": {
@@ -1035,12 +1033,12 @@
                     "Sharper.C.Testing": "0.1.0"
                 }
             },
-            "Sharper.C.Testing/0.1.0-build-00019": {
+            "Sharper.C.Testing/0.1.0-master-00007": {
                 "type": "package",
                 "dependencies": {
                     "FsCheck": "2.4.0",
                     "FSharp.Core": "4.0.0.1",
-                    "Sharper.C.Eq": "0.1.0-build-00008",
+                    "Sharper.C.Eq": "0.1.0-master-00003",
                     "System.Collections.Immutable": "1.1.38-beta-23516"
                 },
                 "frameworkAssemblies": [
@@ -1058,11 +1056,10 @@
                     "lib/dnx451/Sharper.C.Testing.dll": {}
                 }
             },
-            "Sharper.C.Testing.Xunit/0.1.0-build-00019": {
+            "Sharper.C.Testing.Xunit/0.1.0-master-00007": {
                 "type": "package",
                 "dependencies": {
-                    "Sharper.C.Product": "0.1.0-build-00002",
-                    "Sharper.C.Testing": "0.1.0-build-00019",
+                    "Sharper.C.Testing": "0.1.0-master-00007",
                     "xunit": "2.1.0"
                 },
                 "frameworkAssemblies": [
@@ -1285,11 +1282,11 @@
         }
     },
     "libraries": {
-        "Sharper.C.Product/0.1.0-z": {
+        "Sharper.C.Product/0.1.0": {
             "type": "project",
             "path": "../Sharper.C.Product/project.json"
         },
-        "Sharper.C.Product.Testing/0.1.0-z": {
+        "Sharper.C.Product.Testing/0.1.0": {
             "type": "project",
             "path": "../Sharper.C.Product.Testing/project.json"
         },
@@ -1478,9 +1475,9 @@
                 "tools/install.ps1"
             ]
         },
-        "Sharper.C.Eq/0.1.0-build-00008": {
+        "Sharper.C.Eq/0.1.0-master-00003": {
             "type": "package",
-            "sha512": "ZPcj3rVR03OycF8FGXA2rhK0WtGbT4Y/NtIUZBFZdGdaBhzwzHXikxv1Lvi8GqJ3WFhFowQX1dc7qtJcjeyf4w==",
+            "sha512": "Ja3KREUpubhzQuo7sslLif3YNmZF325GNHVtmpldnqxAImKn0iUZoF1mfvYjZw+nXMX33xfZ/KuXM39S5Js+Hw==",
             "files": [
                 "lib/dnx451/Sharper.C.Eq.dll",
                 "lib/dnx451/Sharper.C.Eq.xml",
@@ -1488,30 +1485,30 @@
                 "lib/dotnet/Sharper.C.Eq.xml",
                 "lib/net451/Sharper.C.Eq.dll",
                 "lib/net451/Sharper.C.Eq.xml",
-                "Sharper.C.Eq.0.1.0-build-00008.nupkg",
-                "Sharper.C.Eq.0.1.0-build-00008.nupkg.sha512",
+                "Sharper.C.Eq.0.1.0-master-00003.nupkg",
+                "Sharper.C.Eq.0.1.0-master-00003.nupkg.sha512",
                 "Sharper.C.Eq.nuspec"
             ]
         },
-        "Sharper.C.Testing/0.1.0-build-00019": {
+        "Sharper.C.Testing/0.1.0-master-00007": {
             "type": "package",
-            "sha512": "xADRbW3JzlN4acPjPww88iQaem2/eEVJKVwh0TdNBPs3n3H7s4gTfoe9tNLznoQwE8GKRxXcdCpi9ujw8PbNng==",
+            "sha512": "XXYvw0tI1b4FLWELsi1GlbMtW5WkY1PPyMU9krz6n3EuCmITSX8j71ZxwQPhDSXyOseNfKzWBO7kEK3ye5ey9w==",
             "files": [
                 "lib/dnx451/Sharper.C.Testing.dll",
                 "lib/dnx451/Sharper.C.Testing.xml",
-                "Sharper.C.Testing.0.1.0-build-00019.nupkg",
-                "Sharper.C.Testing.0.1.0-build-00019.nupkg.sha512",
+                "Sharper.C.Testing.0.1.0-master-00007.nupkg",
+                "Sharper.C.Testing.0.1.0-master-00007.nupkg.sha512",
                 "Sharper.C.Testing.nuspec"
             ]
         },
-        "Sharper.C.Testing.Xunit/0.1.0-build-00019": {
+        "Sharper.C.Testing.Xunit/0.1.0-master-00007": {
             "type": "package",
-            "sha512": "5vioH/c2nyotgCv1JdgSkbRs4qjpiESmgA8UgMW0WIwwKn7Fxp3+XdKx8UEGsYtPaS1nkJ6I8rH9d8ARtaE7Sg==",
+            "sha512": "fqAaQqAC4ZooovRTRzPauPdufNOmgF9lxEEa0b2WtvyX7ORCgU58nhjNpkPFCQxf4pmR1e9tAJrBwUlpHm3S4A==",
             "files": [
                 "lib/dnx451/Sharper.C.Testing.Xunit.dll",
                 "lib/dnx451/Sharper.C.Testing.Xunit.xml",
-                "Sharper.C.Testing.Xunit.0.1.0-build-00019.nupkg",
-                "Sharper.C.Testing.Xunit.0.1.0-build-00019.nupkg.sha512",
+                "Sharper.C.Testing.Xunit.0.1.0-master-00007.nupkg",
+                "Sharper.C.Testing.Xunit.0.1.0-master-00007.nupkg.sha512",
                 "Sharper.C.Testing.Xunit.nuspec"
             ]
         },
